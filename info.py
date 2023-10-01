@@ -11,9 +11,9 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Auto_Filters_Bot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+SESSION = environ.get('SESSION', 'Speed_Filters_Bot')
+API_ID = int(environ.get('API_ID', '25145421'))
+API_HASH = environ.get('API_HASH', 'faa6f8032ee368c78522a9fded1c18c6')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 PORT = int(environ.get('PORT', '8080'))
 
